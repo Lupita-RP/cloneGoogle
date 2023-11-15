@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <title>Clon Google</title>
-  </head>
 
-  <body>
-    <div class="main-container">
-      <heade class="navbar">
-        <a href="#">Gmail</a>
-        <a href="#">Imágenes</a>
-        <a href="#" class="icon-menu"
-              ><img src="/images/menuIcon.png" alt="Icono de menú"
-            /></a>
-        <a href="#"><button class="sing-in-button">Sing in</button></a>
-      </heade>
-      <section class="section-1">
-        <img src="/images/googleLogoColor.png" alt="Logo-Google" />
-      </section>
-      <div class="search-input">
-        <form action="#">
-          <div class="btn-search">
-            <img id="serchIcon" src="/images/searchIcon.png" alt="icono de busqueda" />
-            <textarea name="searchTextArea" id="searchTextArea" cols="30s" rows="1" maxlength="2048" aria-expanded="false" role="combobox" spellcheck="false" ></textarea>
-            <img id="voiceSerchIcon"
-              src="/images/voiceSerchIcon.png"
-              alt="icono de dictado de voz"
-            />
-            <img id="imageSerchIcon"
-              src="/images/imageSerchIcon.png"
-              alt="icono de búsqueda por imagen"
-            />
-          </div>
-        </form>
-        <div>
-          <button>Buscar con Google</button>
-          <button>Voy a tener suerte</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <title>Clon Google</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <heade class="navbar">
+      <a href="#">Gmail</a>
+      <a href="#">Imágenes</a>
+      <a href="#" class="icon-menu"><img src="/images/menuIcon.png" alt="Icono de menú" /></a>
+      <a href="#"><button class="sing-in-button">Sing in</button></a>
+    </heade>
+    <section class="section-1">
+      <img src="/images/googleLogoColor.png" alt="Logo-Google" />
+    </section>
+    <div class="search-input">
+      <form action="#">
+        <div class="btn-search">
+          <img id="serchIcon" src="/images/searchIcon.png" alt="icono de busqueda" />
+          <textarea name="searchTextArea" id="searchTextArea" cols="30s" rows="1" maxlength="2048" expanded="false"
+            role="combobox" spellcheck="false"></textarea>
+          <img id="voiceSerchIcon" src="/images/voiceSerchIcon.png" alt="icono de dictado de voz" />
+          <img id="imageSerchIcon" src="/images/imageSerchIcon.png" alt="icono de búsqueda por imagen" />
         </div>
+      </form>
+
+      <div class="section-buttons">
+        <button class="btn-search-with-google">Buscar con Google</button>
+        <button class="btn-get-luck">Voy a tener suerte</button>
       </div>
-      <section class="section-2"></section>
-      <footer class="footer">
-        <div>
-          <h3>México</h3>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <a
-                href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1"
-                >Sobre Google</a
-              >
-            </li>
-            <li><a href="https://www.google.com/intl/es-419_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
-            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a></li>
-            <li><a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
-          </ul>
-          <ul>
-            <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
-            <li><a href="">Condiciones</a></li>
-            <li><a href="">Preferencias</a></li>
-            <li><button>Preferencias</button></li>
-          </ul>
-        </div>
-      </footer>
     </div>
-  </body>
+
+    <section class="section-2"></section>
+    <footer class="footer">
+      <div class="section1-footer">
+        <h3>México</h3>
+      </div>
+      <div class="section2-footer">
+        <a class="left-item" href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre
+          Google</a>
+
+        <a class="left-item"
+          href="https://www.google.com/intl/es-419_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+
+        <a class="left-item"
+          href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+
+        <a class="rigth-item" href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+
+        <a class="rigth-item" href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+
+        <a class="rigth-item" href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+        
+        <button class="btn-preference rigth-item">Preferencias</button>
+      </div>
+  </div>
+  </footer>
+  </div>
+</body>
+
 </html>

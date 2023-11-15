@@ -7,6 +7,11 @@
     text-decoration: none;
 }
 
+a {
+    padding: 0 8px;
+    line-height: 24px;
+}
+
 .main-container {
     display: grid;
     width: 100vw;
@@ -35,9 +40,11 @@
 
 .search-input {
     grid-area: search-input;
-    align-items: flex-center;
-    width: 600px;
-    
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    position: relative;
 }
 
 .section-2 {
@@ -46,26 +53,119 @@
 
 .footer {
     grid-area: footer;
+    position: relative;
+    background: #f2f2f2;
 }
 
 .icon-menu img {
     width: 15px;
     opacity: 1;
+    padding: 0 8px;
 }
 
-.search-input img {
-    width: 10px;
-}
 
 #serchIcon {
     width: 20px;
+    height: 20px;
+    display: flex;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
 }
 
 #voiceSerchIcon,
 #imageSerchIcon {
+    display: flex;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
     width: 24px;
+    height: 20px;
 }
 
 .btn-search {
+    display: flex;
+    min-height: 44px;
+    background: #fff;
     border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    align-items: center;
+}
+
+.section-buttons {
+    display: flex;
+    place-self: center;
+    padding-top: 18px;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.btn-search-with-google,
+.btn-get-luck {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-preference {
+    border: none;
+    position: relative;
+}
+
+.left-item {
+    float: left;
+    background: transparent;
+
+}
+
+.rigth-item {
+    float: right;
+    background: transparent;
+
+}
+
+.section1-item {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section2-footer {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
 }
